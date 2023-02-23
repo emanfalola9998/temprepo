@@ -11,6 +11,13 @@ h1{
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
+    color: #fff;
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .container-fluid{
@@ -54,45 +61,66 @@ h1{
 
 #features{
     display: flex;
-    font-weight: bold;
     
-    text-align: center;
+    
+    /* text-align: center; */
     padding: 7% 15%;
     /* display:inline; */
     /* margin: 0, auto  */
 }
 
-.features-header{
+.features-box{
     /* font-weight: bold; */
     font-size: 1.5rem;
     padding: 5%;
     font-family: "Montserrat-bold";
+    text-align: center
 }
 
-.check-circle{
-    color:#ef8172;
-
+.features-header{
+    font-weight: bold;
 }
 
-.check-circle:hover{
-    color: #ff4c68;
-}
-
-.bullseye{
-    color:#ef8172
-}
-.bullseye:hover{
-    color: #ff4c68;
-}
-
-.heart{
-    color:#ef8172
-}
-
-.heart:hover{
-    color: #ff4c68;
-}
 
 .feature-text{
     color:#8f8f8f;
+
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 26px;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
 }
